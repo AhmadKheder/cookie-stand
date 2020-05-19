@@ -1,0 +1,6 @@
+ th , td
+{
+    margin: 64px 50px 75px 100px;
+    padding: 10px 15px;
+    border : 2px solid blue;
+}

@@ -182,6 +182,7 @@ function header() {
 
 function Footer() {
     var tableFooter = document.createElement('tr');
+    tableFooter.setAttribute("id","FootRow");
     tableTag.appendChild(tableFooter)
     var tableData = document.createElement('td');
     tableFooter.appendChild(tableData);
@@ -245,6 +246,7 @@ else {
 
     }
 }
+
 Footer();
 }
 header();
@@ -295,6 +297,8 @@ locFrom.addEventListener('submit', function (e) {
     objectsArr.push(newLoc);
     var tempArr = []
     locFrom.reset();
+document.getElementById("FootRow").remove();
+
     loopThroughObjectArr();
 
 

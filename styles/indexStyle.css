@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Oswald&display=swap');
+
 body{
 background-color: #e4e4e4;
+font-family: 'Oswald',sans-serif;
+}
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Balsamiq Sans', cursive;
+   
 }
 main h2{
 
@@ -34,7 +41,7 @@ header nav ul li {
 }
 header nav ul li:hover {
 
- background-color: ee8572;
+ background-color: #ee8572;
  font-weight: bold ;
 
   }
@@ -88,4 +95,14 @@ background-image: URL('images/shirt.jpg');
     border: 10px auto; 
 }
 */
+.imgShowGrid{
+    margin: 450px 0 150px 0;
+}
+
+#chinook,#family,#cutter,#fish,#shirt,#frosted{
+    margin-left: 25%;
+    height: 250px;
+  width: 450px;
+  background-color: skyblue;
+}
 

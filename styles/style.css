@@ -1,11 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Oswald&display=swap');
+
+header{
+    margin-top: 0px;
+    width: 100%;
+    background-color:#bcaaa4 ;
+    height: 150px;
+
+} 
+header h2{
+
+    text-align: center;
+    padding-top: 60px;
+}
+
+body{
+    background-color: #e4e4e4;
+    font-family: 'Oswald',sans-serif;
+    }
+    body h1,h2,h3,h4,h5,h6{
+        font-family: 'Balsamiq Sans', cursive;
+       
+    } 
+ 
  th , td
 {
     margin: 64px 50px 75px 100px;
     padding: 10px 15px;
     border : 2px solid blue;
 }
+table{
+    background-color: rgb(172, 172, 206);
+    border : 2px dotted blue;
+    margin: 15px auto;
+color: rgb(116, 30, 4);
+}
+
+form fieldset {
+    margin: 0px auto;
+    color: rgb(116, 30, 4);
 
 
+}
 header  img{
     width: 50px;
     float: right;

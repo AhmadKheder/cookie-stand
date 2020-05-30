@@ -2,12 +2,14 @@
 
 body{
 background-color: #e4e4e4;
-font-family: 'Oswald',sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 body h1,h2,h3,h4,h5,h6{
     font-family: 'Balsamiq Sans', cursive;
-   
+    color: rgb(5, 102, 94);
+
 }
+
 main h2{
 
     text-align: center;
@@ -19,6 +21,10 @@ header img{
     /* height: 25%; */
     border-radius: 0%;
     margin-top:10px;  
+
+}
+p{
+    color: rgb(134, 24, 5);
 
 }
 
@@ -88,6 +94,8 @@ width: 20%;
 height: 1000px;
 padding-left: 15px;
 background-image: URL('images/shirt.jpg');
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(77, 28, 5);
 }
 /* main aside address a {
 
